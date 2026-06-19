@@ -3,7 +3,7 @@ catalogs:
     vite: npm:@voidzero-dev/vite-plus-core@latest
     vite-plus: ^0.2.0
   dev:
-    vitest: npm:@voidzero-dev/vite-plus-test@latest
+    vitest: ^4.1.9
   types:
     '@types/node': '^25.6.2'
     '@typescript/native-preview': 7.0.0-dev.20260509.2
