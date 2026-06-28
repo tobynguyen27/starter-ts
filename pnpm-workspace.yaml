@@ -5,7 +5,7 @@ catalogs:
   dev:
     vitest: ^4.1.9
   types:
-    '@types/node': '^25.6.2'
+    '@types/node': '^26.0.0'
     '@typescript/native-preview': 7.0.0-dev.20260618.1
     typescript: ^6.0.3
   scripts:
