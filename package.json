@@ -8,7 +8,7 @@
 		"url": "https://github.com/tobynguyen27/pkg-name/issues"
 	},
 	"license": "MIT",
-	"author": "Toby Nguyen <hi@tobynguyen.net>",
+	"author": "Toby Nguyen <contact@tobyngn.com>",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/tobynguyen27/pkg-name.git"
@@ -32,17 +32,20 @@
 		"check": "vp check",
 		"prepublishOnly": "vp run build",
 		"prepare": "vp config",
-		"bump": "bumpp"
+		"bump": "bumpp",
+		"up": "taze"
 	},
 	"devDependencies": {
+		"@tobyngn/tsconfig": "catalog:types",
 		"@types/node": "catalog:types",
 		"@typescript/native-preview": "catalog:types",
 		"bumpp": "catalog:scripts",
+		"taze": "catalog:scripts",
 		"typescript": "catalog:types",
 		"vite-plus": "catalog:build"
 	},
 	"engines": {
-		"node": ">=24"
+		"node": ">=26"
 	},
-	"packageManager": "pnpm@11.28.10"
+	"packageManager": "pnpm@12.16.1"
 }
