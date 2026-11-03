@@ -6,9 +6,9 @@ catalogs:
     vitest: ^5.0.5
   types:
     '@types/node': '^26.6.6'
-    '@typescript/native-preview': 7.0.0-dev.20260707.2
-    typescript: ^7.0.2
     '@tobyngn/tsconfig': ^1.0.0
+    oxlint-tsgolint: ^7.0.2005
+    tsrs: 0.20.1-ts7.1.0-beta
   scripts:
     bumpp: ^12.3.0
     taze: ^21.3.0

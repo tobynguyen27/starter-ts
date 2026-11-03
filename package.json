@@ -38,10 +38,10 @@
 	"devDependencies": {
 		"@tobyngn/tsconfig": "catalog:types",
 		"@types/node": "catalog:types",
-		"@typescript/native-preview": "catalog:types",
 		"bumpp": "catalog:scripts",
+		"oxlint-tsgolint": "catalog:types",
 		"taze": "catalog:scripts",
-		"typescript": "catalog:types",
+		"tsrs": "catalog:types",
 		"vite-plus": "catalog:build"
 	},
 	"engines": {

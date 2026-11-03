@@ -1,6 +1,6 @@
-import { defineConfig, type UserConfig } from 'vite-plus';
+import { defineConfig } from 'vite-plus';
 
-const config: UserConfig = defineConfig({
+export default defineConfig({
 	resolve: {
 		tsconfigPaths: true,
 	},
@@ -38,5 +38,3 @@ const config: UserConfig = defineConfig({
 		],
 	},
 });
-
-export default config;
